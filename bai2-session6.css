@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width : 739px) {
+
+}
+
+body {
+    padding: 0 100px;
+}
+
+.header-container {
+}
+.header-name {
+    height: 70px;
+    background-color: #333333;
+}
+
+.header-name h2 {
+    color: white;
+    font-size: 40px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.nav-container {
+    height: 50px;
+    background-color: #f1f1f1;
+}
+
+.nav-content {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-content .nav-button {
+    height: 50px;
+    padding: 15px 25px;
+    text-align: center;
+}
+
+.nav-content .nav-button a {
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+}
+
+.banner-container {
+    height: 180px;
+    margin: 30px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content {
+    text-align: center;
+}
+
+.banner-container h1 {
+    font-size: 50px;
+}
+
+.banner-container p {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.view-button button {
+    padding: 4px 16px;
+    border-radius: 5px;
+}
+
+.project-list-container {
+    height: 450px;
+    margin-top: 70px;
+}
+
+.project-list-content {
+
+}
+
+.project-list-container h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.card-list {
+    height: 350px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.card-container {
+    height: 350px;
+    width: 15%;
+}
+
+.card-content {
+    text-align: center;
+}
+
+.card-content .img-item {
+}
+
+.card-content .img-item img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-content p {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.introduce-container {
+    height: 150px;
+}
+
+.introduce-content {
+    text-align: center;
+}
+
+.introduce-content h1 {
+    padding: 20px;
+}
+
+.introduce-content p {
+    font-size: 20px;
+}
+
+.footer {
+    margin-top: 50px;
+    background-color: 
+    #333333;
+    height: 30px;
+}
+
+.footer p {
+    line-height: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.747);
+}
